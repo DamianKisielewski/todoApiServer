@@ -22,7 +22,7 @@ app.get('/', function(req, res) {
 
 
 
-app.listen(8000, function() {
+app.listen(process.env.PORT, function() {
     console.log('Aplikacja ToDoPOL 2000, jest dostępna pod adresem localhost:8000. W trosce o.....');
     
 });

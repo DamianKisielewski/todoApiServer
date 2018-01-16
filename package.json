@@ -1,0 +1,27 @@
+{
+  "name": "TodoApiServer",
+  "version": "0.1.0",
+  "description": "Simple server with api for todo app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Damian Kisielewski",
+  "license": "GNU",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kisiiel/todoServer.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "jasmine": "^2.8.0",
+    "mongoose": "^4.12.1",
+    "nodemon": "^1.14.11",
+    "to": "^0.2.9",
+    "update": "^0.7.4"
+  },
+  "devDependencies": {}
+}

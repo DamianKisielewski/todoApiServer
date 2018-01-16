@@ -4,7 +4,8 @@
   "description": "Simple server with api for todo app.",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "start": "nodemon index.js"
   },
   "author": "Damian Kisielewski",
   "license": "GNU",
